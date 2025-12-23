@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Vishal Portfolio</title>
+  <meta name="title" content="Vishal - AI/ML Engineering Student & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="VISHAL">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="64" height="24" alt="VISHAL">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="vishalkumarm85@gmail.com" class="contact-link">vishalkumarm85@gmail.com</a>
+
+          <a href="+91 9525373615" class="contact-link"> 9525373615</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.threads.net/@liger__vishal" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/share/1CTbrkuRTM/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/liger__vishal?igsh=M3ZjMWowNXB0Mmgy" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com/@liger__vishal?si=l_molVB0tbs8mGJp" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.jpg" width="560" height="540" alt="Julia" class="w-100"
+              data-reveal="top">
+
+            <img src="./assets/images/*.svg" width="203" height="91" alt="00Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm AI/ML Engineering Student & Developer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Vishal Kumar Mahto, an AI/ML Engineering Student & Developer, with hands-on experience in Python, machine learning algorithms, and data-driven applications.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#myskills" class="btn btn-primary">See My Works</a>
+
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+<section id="about" class="what-i-do-section">
+        <div class="container">
+    <h2>What I Do</h2>
+    <div class="services">
+
+      <div class="service">
+        <h3>Machine Learning</h3>
+        <p>I build ML models for prediction, classification, and clustering using Python libraries like <strong>scikit-learn</strong> and <strong>pandas</strong>.</p>
+      </div>
+
+      <div class="service">
+        <h3>Python Programming</h3>
+        <p>Strong foundation in Python — from data handling and functions to object-oriented programming using <strong>NumPy</strong>, <strong>Matplotlib</strong>, and more.</p>
+      </div>
+
+      <div class="service">
+        <h3>Data Science</h3>
+        <p>I clean, analyze, and visualize data using tools like <strong>Pandas</strong>, <strong>Seaborn</strong>, and <strong>Matplotlib</strong> to extract insights.</p>
+      </div>
+
+      <div class="service">
+        <h3>Deep Learning (Beginner)</h3>
+        <p>Exploring deep learning models using <strong>TensorFlow</strong> and <strong>Keras</strong> for tasks like image classification and natural language processing.</p>
+      </div>
+
+      <div class="service">
+        <h3>Projects & Internships</h3>
+        <p>Completed Google AI/ML Virtual Internship and Zscaler Networking Internship, applying core AI concepts in real-world environments.</p>
+      </div>
+
+      <div class="service">
+        <h3>Web Development (Basic)</h3>
+        <p>Skilled in building simple, responsive web pages using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<script>
+  const cards = document.querySelectorAll('.service');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationDelay = `${entry.target.dataset.delay || 0}s`;
+        entry.target.style.opacity = 1;
+      }
+    });
+  }, { threshold: 0.2 });
+
+  cards.forEach((card, i) => {
+    card.dataset.delay = i * 0.1;
+    observer.observe(card);
+  });
+</script>
+<section id="myskills" class="My Skills"> </section>
+<h2  style="text-align:center; margin-bottom: 20px;">My Skills</h2>
+
+            <ul class="progress-list" data-reveal="right">
+
+  <li class="progress-item">
+    <div class="label-wrapper">
+      <p>Python Programming</p>
+      <span class="span">20%</span>
+    </div>
+    <div class="progress">
+      <div class="progress-fill" style="width: 20%; background-color: #c7b1dd;"></div>
+    </div>
+  </li>
+
+  <li class="progress-item">
+    <div class="label-wrapper">
+      <p>Machine Learning </p>
+      <span class="span">10%</span>
+    </div>
+    <div class="progress">
+      <div class="progress-fill" style="width: 10%; background-color: #c7b1dd;"></div>
+    </div>
+  </li>
+
+  <li class="progress-item">
+    <div class="label-wrapper">
+      <p>Data Analysis & Visualization</p>
+      <span class="span">05%</span>
+    </div>
+    <div class="progress">
+      <div class="progress-fill" style="width: 05%; background-color: #c7b1dd;"></div>
+    </div>
+  </li>
+
+  <li class="progress-item">
+    <div class="label-wrapper">
+      <p>Deep Learning (TensorFlow)</p>
+      <span class="span">10%</span>
+    </div>
+    <div class="progress">
+      <div class="progress-fill" style="width: 10%; background-color: #c7b1dd;"></div>
+    </div>
+  </li>
+
+  <li class="progress-item">
+    <div class="label-wrapper">
+      <p>Web Development (HTML, CSS, JS)</p>
+      <span class="span">40%</span>
+    </div>
+    <div class="progress">
+      <div class="progress-fill" style="width: 40%; background-color: #c7b1dd;"></div>
+    </div>
+  </li>
+
+  <li class="progress-item">
+    <div class="label-wrapper">
+      <p>Git & GitHub</p>
+      <span class="span">50%</span>
+    </div>
+    <div class="progress">
+      <div class="progress-fill" style="width: 50%; background-color: #c7b1dd;"></div>
+    </div>
+  </li>
+
+</ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Python Programming</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Development</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Machine Learning</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Git/Github</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras
+                  justo cum sociis natoque magnis.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="projects" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="#projects" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">Snowlake Theme</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Budget App</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">MY-Portfolio</p>
+
+                  <h3 class="h3 card-title">Work Theme</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
+                    id ligula felis.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Storage App</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      <header>
+  <a href="#" class="logo">
+    <img src="./assets/images/Untitled design.png" width="120" height="80" alt="VISHAL">
+  </a>
+
+  <nav class="navbar" data-navbar>
+    <div class="navbar-top">
+      <a href="#" class="logo">
+        <img src="./assets/images/Untitled design.png" width="120" height="80" alt="VISHAL">
+      </a>
+    </div>
+  </nav>
+</header>
+
+<!-- Spotify Embed -->
+<div class="spotify-player" style="margin:20px auto; text-align:center;">
+  <iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/playlist/0sQE2lMyT0bB01NMu8tphr" 
+    width="100%" height="380" frameBorder="0" 
+    allowfullscreen="" 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+  </iframe>
+</div>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+         <section id="contact" class="section contact" aria-label="contact">
+        <div class="container">
+          <div class="contact-card">
+            <div class="contact-content" data-reveal="left">
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+            </div>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+  <div class="form-wrapper">
+    <input type="text" name="name" placeholder="Name *" required class="input-field">
+    <input type="email" name="email" placeholder="Email *" required class="input-field">
+  </div>
+  <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+  <button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright">© 2025 codewithvishal. All rights reserved.</p>
+      <ul class="social-list">
+        <li><a href="https://www.threads.net/@liger__vishal" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.facebook.com/share/1CTbrkuRTM/" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/vishal-kumar-2457b72a6" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/liger__vishal" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://youtube.com/@liger__vishal" class="social-link"><ion-icon name="logo-youtube"></ion-icon></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
